@@ -1,3 +1,8 @@
+# Fork info
+This repo has been forked because we needed to add [this](https://github.com/geosolutions-it/proj4js/tree/5011a3af3a3cec821c93528a42a68614ac2a3e42) fix
+We are going to publish the **release** branch on npm GeoSolutions registry
+
+
 # PROJ4JS [![Build Status](https://travis-ci.org/proj4js/proj4js.svg)](https://travis-ci.org/proj4js/proj4js)
 
 Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.

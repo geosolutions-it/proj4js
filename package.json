@@ -1,12 +1,12 @@
 {
-  "name": "proj4",
-  "version": "2.4.5-alpha",
+  "name": "@geosolutions/proj4",
+  "version": "2.4.6",
   "description": "Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.",
   "main": "dist/proj4-src.js",
   "module": "lib/index.js",
   "directories": {
-    "test": "test",
-    "doc": "docs"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "build": "grunt",
@@ -15,13 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/proj4js/proj4js.git"
+    "url": "git+https://github.com/geosolutions-it/proj4js.git"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@geosolutions/curl-amd": "0.8.14",
     "chai": "~4.1.2",
-    "curl": "git://github.com/cujojs/curl.git",
     "grunt": "^1.0.1",
     "grunt-cli": "~1.2.0",
     "grunt-contrib-connect": "~1.0.2",
@@ -39,5 +39,9 @@
   "dependencies": {
     "mgrs": "1.0.0",
     "wkt-parser": "^1.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/geosolutions-it/proj4js/issues"
+  },
+  "homepage": "https://github.com/geosolutions-it/proj4js#readme"
 }
